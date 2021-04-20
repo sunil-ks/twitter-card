@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.d-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+  padding-right: 10px;
+}
+.mb-0 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+.pb-5 {
+  padding-bottom: 5px;
+}
+.card-btn {
+  background-color: #1da1f2;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+.userInfo {
+  white-space: nowrap;
+  width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.light-text {
+  color: #747272;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
